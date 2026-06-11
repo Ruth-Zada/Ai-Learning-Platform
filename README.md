@@ -1,3 +1,4 @@
+
 # 🎓 AI Learning Platform - Mini MVP
 
 פלטפורמת למידה חכמה מבוססת בינה מלאכותית (AI) המאפשרת למשתמשים ליצור שיעורים מותאמים אישית, לעקוב אחר היסטוריית הלמידה שלהם, ולמנהלי מערכת לנהל את כלל המשתמשים.
@@ -60,23 +61,21 @@ cd ai-learning-platform
 ### 2. הגדרת משתני סביבה
 
 ```bash
-# Backend
+
 cd backend
 cp .env.example .env
 
-# ערוך את .env עם ההגדרות שלך
+
 ```
 
 ### 3. הרצת ה-backend
 
 ```bash
-# התקנת תלויות
+
 npm install
 
-# הרצת מיגרציות Prisma
 npx prisma migrate dev
 
-# הרצת שרת פיתוח
 npm run dev
 ```
 
@@ -175,10 +174,8 @@ ai-learning-platform/
 ### הרצה עם Docker Compose
 
 ```bash
-# בניית והרצת כל הקונטיינרים
 docker-compose up --build
 
-# הרצה ברקע
 docker-compose up -d
 ```
 
@@ -301,10 +298,10 @@ ADMIN_API_KEY=your-secret-admin-key
 ## 🧪 בדיקות
 
 ```bash
-# הרצת בדיקות
+
 npm test
 
-# כיסוי קוד
+
 npm run test:coverage
 ```
 
@@ -335,3 +332,5 @@ npm run test:coverage
 ---
 
 **⭐ אם הפרויקט היה שימושי, תן כוכב!**
+=======
+# Ai-Learning-Platform
